@@ -11,9 +11,9 @@ export class NavBarComponent implements OnInit {
   logged:boolean;
 
   constructor() {
-    
+
       this.logoURL="assets/LogoArgProg.png";
-      this.logged=false;
+      this.logged=true;
    }
 
   ngOnInit(): void {
