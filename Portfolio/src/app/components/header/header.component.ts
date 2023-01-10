@@ -15,8 +15,8 @@ export class HeaderComponent implements OnInit {
 
     this.nombre="Bruno Almiron"
     this.subtitulo="Full Stack Developer Jr";
-    this.descripcion="Estudiante de ingenieria en sistemas y Full Stack Developer Jr\nApasionado por la ciberseguridad.";
-    
+    this.descripcion="Estudiante de ingenieria en sistemas y Full Stack Developer Jr.Apasionado por la ciberseguridad. aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaa a a  a a a a";
+
    }
 
   ngOnInit(): void {

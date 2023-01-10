@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+.my-card {
+    border-radius: 15px;
+    margin: 8px;
+    padding: 5px;
+    /*background-color:#222021;*/
+}

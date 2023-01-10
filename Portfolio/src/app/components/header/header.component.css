@@ -1,0 +1,17 @@
+.image {
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+}
+.header {
+    background-image: url(\src\assets\back-img.jpg);
+    background-size: contain;   
+}
+.custom-text-centered {
+    padding-top: 50px;
+}
+.bordes {
+
+    border-radius: 10px;
+
+}
