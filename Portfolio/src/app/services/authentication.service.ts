@@ -15,7 +15,7 @@ export class AuthenticationService {
    }
 
 
-  isUserAuthenticated() {
+  isUserAuthenticated():boolean {
 
     return this.isAuthenticated;
 

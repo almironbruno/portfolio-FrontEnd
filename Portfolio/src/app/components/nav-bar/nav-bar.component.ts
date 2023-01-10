@@ -9,16 +9,26 @@ import { AuthenticationService } from 'src/app/services/authentication.service';
 export class NavBarComponent implements OnInit {
 
   logoURL: string;
+  githubURL:string;
+  linkedInURL:string;
   logged:boolean;
   AuthService: AuthenticationService;
+
   constructor(private AuthSc: AuthenticationService ) {
 
       this.logoURL="assets/LogoArgProg.png";
-      this.logged=true;
+      this.githubURL="https://github.com/almironbruno";
+      this.linkedInURL="https://www.linkedin.com/in/almironbruno";
+      this.logged=false;
       this.AuthService= AuthSc;
    }
 
   ngOnInit(): void {
+    this.checkLogin();
   }
 
+  checkLogin(): void {
+
+    this.logged = this.AuthService.isUserAuthenticated();
+  }
 }
